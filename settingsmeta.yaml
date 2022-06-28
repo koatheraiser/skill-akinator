@@ -6,4 +6,4 @@ skillMetadata:
         - name: child_mode
           type: checkbox
           label: Enable Child Mode
-          value: "true"
+          value: "false"
