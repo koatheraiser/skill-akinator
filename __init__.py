@@ -34,6 +34,7 @@ class MycroftAkinator(MycroftSkill):
                 answer = answer
             elif self.voc_match(answer, "stop") == True:
                 # TODO: is there a better way to stop the execution of the skill
+                self.speak_dialog("cancel")
                 return "stop"
             # TODO: maybe put the last two clauses together?
             elif self.voc_match(answer, "i.dont.know") == True:
